@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "cypress": "cypress open",
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^3.7.0",
+    "dotenv": "^16.0.1",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -17,6 +20,8 @@
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
+    "clerk-cypress": "^0.1.9",
+    "cypress": "^10.3.0",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.2",
     "typescript": "4.7.4"
