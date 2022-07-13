@@ -16,7 +16,7 @@ export default defineConfig({
     TEST_USER_PASSWORD:
       process.env.TEST_USER_PASSWORD !== undefined
         ? process.env.TEST_USER_PASSWORD
-        : "ebz-ekg.ukp_XUN0dyu",
+        : "xfg1cjk9CWR4jqd_tvr",
     INIT_URL: "localhost:3000/init",
   },
 });
