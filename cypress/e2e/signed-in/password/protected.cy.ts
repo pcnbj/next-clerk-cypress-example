@@ -9,7 +9,7 @@ describe("Client side protection", () => {
     cy.signInWithClerk({
       strategy: "password",
       email: "testuser2+clerk_test@test.com",
-      password: "ebz-ekg.ukp_XUN0dyu",
+      password: "mtk1vyp5UKE.vyv4wbp",
     });
 
     cy.visit("localhost:3000/protected");
